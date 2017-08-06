@@ -19,6 +19,7 @@ public abstract class Pokemon {
 		this.attackPoints = AP;
 		this.defensePoints = DP;
 		this.maxHP = maxHP;
+		this.currentHP = maxHP;
 	}
 	
 	public void heal(int hp) throws BadPotionException, DeadPokemonException{
